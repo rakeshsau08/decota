@@ -104,7 +104,7 @@ body{
     display: none;
 }
 
-.nav-toggle-level{
+.nav-toggle-label{
     display: none;
     cursor:pointer;
 
@@ -498,7 +498,7 @@ product section */
     }
 
     
-    .nav-toggle:checked ~ .nav-links {
+    .nav-toggle:checked ~ .enkor {
         opacity: 1;
         transform: translateY(0);
         pointer-events: auto;
@@ -514,7 +514,6 @@ product section */
         font-size: 36px;
     }
 
-    @media (max-width: 768px) {
     .video-grid {
         grid-template-columns: 1fr !important;
         gap: 25px;
@@ -539,7 +538,7 @@ product section */
         font-size: 22px;
         margin-bottom: 25px;
     }
-    }
+    
 
      .form-wrapper {
         padding: 25px 20px;
