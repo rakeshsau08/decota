@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myweb</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class = "navbar">
+     <div class="container nav-container">
+        <a  class="logo">Decota.com</a>
+        
+           <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+
+        <nav class = "enkor">
+          <a  href="#home">Home</a>
+          <a  href="#about">About</a>
+          <a  href="#contuct">Contuct</a>
+          <a  href="#login">Login</a>
+         <div class="search-bar">
+          <input class="ssystem" type="text" placeholder="search here">
+          <button type="submit" class="ssystem" id="searchbutton"><i class="fas fa-search"></i></button>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+    <div class="container hero-container">
+       <div class="hero-text">
+        <h1>
+            <b>
+            DECOTA
+        </b>
+        </h1>
+        
+          <h3>
+            is a professional program booking website
+            here you also get home decoration product
+          </h3>
+        
+          <p>
+            <i>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia enim praesentium ipsum voluptatibus! Dolor nostrum, adipisci earum dolore saepe, dolorem repellendus quas, veniam quaerat corporis ullam eos! Reiciendis in ea culpa debitis assumenda hic consectetur.
+         </i>
+         </p>
+          <a href="#" class="book-now">Book Now</a>
+       </div> 
+    
+    <div class="hero-img">
+        <img class="image1" src="./image/1stpic.jpg" alt="loading" width="350px">
+        <span class="below-text">
+            This is our average Weading Decoration
+        </span>
+    </div>
+</div>
+    </section>
+
+<main class="product-section">
+    <div class="container">
+        <h2 class="section-title">
+            <b>
+                <i>
+                    <u>
+                        Example of our decoration
+                    </u>
+                </i>
+            </b>
+        </h2>
+         <div class="product-grid">
+            <div class="product-card">
+                <div class="product-img-holder"><img src="./image/2ndpic.jpeg" placeholder="pandal image" width="340px"></div>
+                <div class="product-info">
+                     <h3>Weading Sample</h3>
+                     <p class="price">$225.00</p>
+                     <a href="https://youtu.be/RhrKaosq6QQ?si=9lxmR7uH1AxGH6oP" class="btn-second" target="_blank" >Book Now</a>
+                </div>
+            </div>
+             <div class="product-card">
+                <div class="product-img-holder"><img src="./image/3rdpic.jpg" placeholder="pandal image" width="340px"></div>
+                <div class="product-info">
+                     <h3>Weading Sample</h3>
+                     <p class="price">$156.00</p>
+                     <a href="https://youtu.be/OmVpVVsnPHg?si=zj5yag-Sas0jghVk" class="btn-second" target="_blank" >Book Now</a>
+                </div>
+            </div>
+             <div class="product-card">
+                <div class="product-img-holder"><img src="./image/4thpic.jpg" placeholder="pandal image" width="340px" ></div>
+                <div class="product-info">
+                     <h3>Weading Sample</h3>
+                     <p class="price">$289.00</p>
+                     <a href="https://youtu.be/GEZR7vd-0Eg?si=w_YgKW5zRGYEv4uw" class="btn-second" target="_blank">Book Now</a>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-img-holder"><img src="./image/5thpic.jpg" placeholder="pandal image" width="340px"></div>
+                <div class="product-info">
+                     <h3>Weading Sample</h3>
+                     <p class="price">$120.00</p>
+                     <a href="https://youtu.be/0-idaSpl4E8?si=_cNsiGvznmiN45Zr" class="btn-second" target="_blank">Book Now</a>
+                </div>
+            </div>
+         </div>
+    </div>
+</main>
+
+<!-- youtube video's link -->
+<main class="video-section">
+    <div class="container">
+          <h2 class="yt-title">
+            <b>
+                <u>
+                    Our video sample through the youtube
+                </u>
+            </b>
+          </h2>
+    <div class="video-grid">
+       <div class="videos">
+           <iframe class="ytvideo1" width="560" height="315" src="https://www.youtube.com/embed/RhrKaosq6QQ?si=DY5CvHPkaUrCgo2T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+         <iframe class="ytvideo2" width="560" height="315" src="https://www.youtube.com/embed/Zfw5gTt4mWc?si=yWuN0kUVSnPBlSp6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+       </div>
+      </div>
+    </div>
+</main>
+
+<!-- login for booking -->
+
+     <div class="login-page">
+    <div class="form-wrapper">
+        <h3>LOGIN FOR BOOKING</h3>
+        
+        <form action="action_page.php" method="post">
+            <div class="form-group">
+                <label for="uname">USERNAME</label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+            </div>
+
+            <div class="form-group">
+                <label for="pass">PASSWORD</label>
+                <input type="password" placeholder="Enter Password" name="pass" required>
+            </div>
+
+            <button type="submit" class="btn-submit">Login</button>
+
+            <div class="form-options">
+                <label class="remember-me">
+                    <input type="checkbox" checked name="remember"> Remember me
+                </label>
+                <span class="psw"><a href="#">Forgot Password?</a></span>
+            </div>
+
+            <button type="button" class="canclebtn">Cancel</button>
+        </form>
+    </div>
+</div>
+
+       <!-- footer -->
+
+       <footer>
+        <div class="container footer-container">
+            <p>&copy; 2026 Decota. All rights reserved.</p>
+        </div>
+       </footer>
+</body>
+</html>
