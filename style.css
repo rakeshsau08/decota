@@ -185,10 +185,16 @@ body{
     border-radius:10px;
     color:darkslateblue;
     font-weight: 600;
-   
+   animation: change-state 3s linear 2s infinite alternate;
 
 }
 
+
+@keyframes change-state{
+    0%{transform: translateY(4px);}
+    50%{transform: translateY(0px);}
+    100%{transform: translateY(-4px);}
+}
 .below-text{
    margin-top: 10px;
    font-size:15px;
